@@ -11,17 +11,6 @@
         
     
   
-    
-        ,"post1": {
-            "title": "If you can code. you can do statistics.",
-            "content": "Introduction: . In this series of blog posts, I’ll talk about some techniques we can use to answer statistical questions without any knowledge of statistics. We will go through some statistics&amp;probability problems and answer them computationally(using code). And maybe compare that with the analytical solution. . We also will address the pros and cons of this approach. . from random import choice coin = [1 , 0] # 1 is heads 0 is tails N = 100000 sum_of_heads = [] for i in range(N): flips = [] for _ in range(100): flips.append(choice(coin)) sum_of_heads.append(sum(flips)) . plt.hist(sum_of_heads); .",
-            "url": "https://ahmedhindi.github.io/RandomBoostedThoughts/2020/01/28/My-First-Post.html",
-            "relUrl": "/2020/01/28/My-First-Post.html",
-            "date": " • Jan 28, 2020"
-        }
-        
-    
-  
 
   
   
